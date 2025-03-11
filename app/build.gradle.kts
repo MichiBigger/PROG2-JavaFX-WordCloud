@@ -7,7 +7,8 @@
 
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
-    application
+    id("application")
+	id("org.openjfx.javafxplugin") version "0.1.0"
 }
 
 repositories {
@@ -36,6 +37,12 @@ application {
     // Define the main class for the application.
     mainClass = "ch.zhaw.it.prog2.wordcloud.App"
 }
+
+javafx {
+    version = "23.0.2"
+    modules = listOf("javafx.controls", "javafx.fxml")
+}
+
 
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
