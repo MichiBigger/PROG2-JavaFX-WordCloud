@@ -13,7 +13,7 @@
    <children>
       <VBox alignment="CENTER" layoutX="7.0" layoutY="5.0" prefHeight="471.0" prefWidth="627.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label fx:id="labelTitle" alignment="CENTER" prefHeight="44.0" prefWidth="28.0" text="Label" />
+            <Label fx:id="labelTitle" alignment="CENTER" text="Label" />
             <TextField fx:id="textEntry" alignment="CENTER" maxHeight="80.0" maxWidth="300.0" prefHeight="61.0" prefWidth="300.0" />
             <HBox alignment="CENTER" prefHeight="138.0" prefWidth="627.0" spacing="20.0" VBox.vgrow="ALWAYS">
                <children>

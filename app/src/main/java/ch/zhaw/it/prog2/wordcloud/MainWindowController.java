@@ -17,14 +17,19 @@ public class MainWindowController {
     @FXML
     private TextArea textHistory;
 
+    public void initialize() {
+        labelTitle.textProperty().bind(textEntry.textProperty());
+    }
+
     @FXML
     void addText(ActionEvent event) {
+        textHistory.appendText(textEntry.getText() + System.lineSeparator());
 
     }
 
     @FXML
     void clearTextEntry(ActionEvent event) {
-
+        textEntry.clear();
     }
 
 }
