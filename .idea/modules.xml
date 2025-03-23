@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Prog2_Praktikum.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Prog2_Praktikum.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PROG2-JavaFX-WordCloud.iml" filepath="$PROJECT_DIR$/.idea/PROG2-JavaFX-WordCloud.iml" />
     </modules>
   </component>
 </project>
